@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#navbar{
+   width:1470px;
+   height: 64px;
+   background-color: #0B0F19;
+ line-height: normal;
+   position: fixed;
+   
+}
+#logo{
+    color: #f50f1b;
+    text-decoration: none;
+    margin-left:75px;
+    font-size: 20px;
+    font-family: poppins,inter;
+   line-height:64px;
+   
+}
+#nav{
+    color: white;
+    text-decoration: none;
+    margin-left:125px;
+    font-family: poppins,inter;
+   
+}
+#icon{
+     color: white;
+    float: right;
+    line-height:64px;
+    margin-right:75px;
+    font-size: 20px;
+}
+#icon1{
+    color: white;
+    float: right;
+    line-height:64px;
+    margin-right:75px;
+    font-size: 20px;
+}
+main{
+    background-color:#0f172a;
+    height:1700px;
+}
+#movie{
+    text-align: center;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#r1{
+    margin-top:50px;
+    margin-left:110px;
+    background-color:#0f172a;
+    height:450px;
+    width:330px;
+  display: inline-block;
+}
+img{
+    height:400px;
+    width:330px;
+     border: 1px solid grey;
+}
+b{
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background-color:#e50914;
+    border-radius:10px;
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:5px;
+    
+}
+footer{
+    background-color:#0f172a;
+    height:300px;
+}
+#leftfooter{
+    background-color:#0f172a;
+    height:50px;
+    display: inline-block;
+    margin-left:75px;
+    margin-top:40px;
+}
+b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:white;
+}
+p{
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+}
+#midfooter{
+    background-color:#0f172a;
+    height:50px;
+    margin-left: 650px;
+    margin-top:-65px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#rightfooter{
+    background-color:#0f172a;
+    height:50px;
+    margin-left:1160px;
+    margin-top:-45px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#p1{
+    text-align: center;
+    color:white;
+    margin-top:10px;
+}

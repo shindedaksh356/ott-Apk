@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#navbar{
+   width:1470px;
+   height: 64px;
+   background-color: #0B0F19;
+ line-height: normal;
+   position: fixed;
+   
+}
+#logo{
+    color: #f50f1b;
+    text-decoration: none;
+    margin-left:75px;
+    font-size: 20px;
+    font-family: poppins,inter;
+   line-height:64px;
+   
+}
+#nav{
+    color: white;
+    text-decoration: none;
+    margin-left:125px;
+    font-family: poppins,inter;
+   
+}
+#icon{
+     color: white;
+    float: right;
+    line-height:64px;
+    margin-right:75px;
+    font-size: 20px;
+}
+#icon1{
+    color: white;
+    float: right;
+    line-height:64px;
+    margin-right:75px;
+    font-size: 20px;
+}
+main{
+    background-color:#0f172a;
+    height:1700px;
+}
