@@ -7,7 +7,7 @@
    height: 64px;
    background-color: #0B0F19;
  line-height: normal;
-   position: fixed;
+   position:fixed;
    
 }
 #logo{
@@ -15,7 +15,7 @@
     text-decoration: none;
     margin-left:75px;
     font-size: 20px;
-    font-family: poppins,inter;
+   font-family: Arial, Helvetica, sans-serif;
    line-height:64px;
    
 }
@@ -23,7 +23,7 @@
     color: white;
     text-decoration: none;
     margin-left:125px;
-    font-family: poppins,inter;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 #icon{
@@ -40,7 +40,69 @@
     margin-right:75px;
     font-size: 20px;
 }
-main{
+#color{
     background-color:#0f172a;
-    height:1700px;
+    height:1554px;
+} 
+#profile{
+    height:250px;
+    width:250px;
+    margin-top:100px;
+    margin-left:100px;
+    border-radius:100%;
+}
+#info{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left:375px;
+    margin-top:-200px;
+    height:100px;
+}
+button{
+    background-color:#f50f1b;
+    color:white;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top:75px;
+    margin-left:5px;
+    width:150px;
+    height:40px;
+    border:none;
+    border-radius:5px;
+}
+hr{
+    margin-top:110px;
+    border:1px solid grey;
+}
+h2{
+    color:white;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    margin-top:20px;
+    margin-left:100px;
+
+}
+#hr1{
+    margin-top:30px;
+    border:1px solid grey;
+
+}
+.i1{
+    display:inline-block;
+}
+img{
+    height:330px;
+    width:475px;
+    margin-left:8px;
+    margin-top:5px;
+     border: 1px solid grey;
+     display:inline;
+     
+}
+li{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top:10px;
 }
