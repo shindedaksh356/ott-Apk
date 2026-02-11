@@ -42,7 +42,7 @@
 }
 #color{
     background-color:#0f172a;
-    height:1554px;
+    height:1310px;
 } 
 #profile{
     height:250px;
@@ -88,16 +88,21 @@ h2{
     border:1px solid grey;
 
 }
-.i1{
-    display:inline-block;
+#i1{
+    background-color:#0f172a;
+   height:330;
+   width:450px;
+   margin-left:15px;
+   margin-Top:5px;
+   display:inline-block;
+    justify-content:space-evenly;
+    list-style:none;
 }
 img{
     height:330px;
     width:475px;
-    margin-left:8px;
-    margin-top:5px;
+    margin-left:15px;
      border: 1px solid grey;
-     display:inline;
      
 }
 li{
@@ -105,4 +110,18 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top:10px;
+    margin-left:15px;   
+}
+#hr3{
+    margin-top:20px;
+
+}
+#footer{
+    text-align: center;
+    margin-top:5px;
+}
+a{
+    margin-left:5px;
+    text-decoration: none;
+    color: white;
 }
