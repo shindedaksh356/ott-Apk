@@ -1,57 +1,66 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#navbar{
-   width:1470px;
-   height: 64px;
-   background-color: #0B0F19;
-line-height: normal;
-   position: fixed;
+.navbar{
+      width: 1475px;
+      height: 64px;
+      background-color: #0B0F19;
+      line-height: normal;
+      align-items: center;
+      border-radius: 5px;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      justify-content:space-between;
 }
 #logo{
     color: #f50f1b;
     text-decoration: none;
-    margin-left:75px;
+    margin-left:25px;
     font-size: 20px;
- font-family: Arial, Helvetica, sans-serif;
-   line-height:64px;
-   
+    font-family: poppins,inter;
+}
+.navlink{
+    margin-left:-600px;
 }
 #nav{
-    color: white;
+    margin-left:100px;
     text-decoration: none;
-    margin-left:125px;
-   font-family: Arial, Helvetica, sans-serif;
-   
+    color: white;
+}
+#nav:hover{
+   color:red;
+
 }
 #icon{
-     color: white;
-    float: right;
-    line-height:64px;
-    margin-right:75px;
-    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    font-size:25px;
+   margin-right:30px;
+
 }
-#icon1{
-    color: white;
-    float: right;
-    line-height:64px;
-    margin-right:75px;
-    font-size: 20px;
+#icon:hover{
+   color:grey;
+
 }
+
 #color{
     background-color:#0f172a;
     height:1554px;
 }  
-#img{
+ #img{
     height:350px;
     width:450px;
     margin-top:120px;
     margin-left:75px;
-}
+
+} 
+
 #name{
     color:white;
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     margin-left:750px;
     margin-top:-400px;
@@ -69,9 +78,12 @@ line-height: normal;
     margin-left:750px;
     margin-top:30px;
 }
+#button:hover{
+    background-color:rgba(16, 13, 12, 0.416);
+}
 #treanding{
     color:white;
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin-left:75px;
     margin-top:120px;
@@ -80,7 +92,6 @@ line-height: normal;
     height:400px;
     margin-left:75px;
     margin-top:20px;
-
 }
 #popular1{
     color:white;
@@ -101,6 +112,7 @@ hr{
 footer{
     background-color:#0f172a;
     height:300px;
+  
 }
 #leftfooter{
     background-color:#0f172a;
